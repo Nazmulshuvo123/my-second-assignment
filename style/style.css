@@ -1,5 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap");
 
-body{
-    font-family: "Inter", sans-serif;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+}
+/* common class */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/* logo style */
+.logo {
+  font-size: 2.23rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(230, 83, 60, 1);
+}
+/* navbar style */
+
+header {
+  padding: 30px 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+  display: flex;
+  border-radius: 38px;
+  padding: 4px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  
+}
+li.nav-link {
+  padding: 10px 25px;
+}
+
+.nav-link a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.644);
+}
+.active {
+  border-radius: 30px;
+  background-color: rgba(230, 83, 60, 1);
 }
