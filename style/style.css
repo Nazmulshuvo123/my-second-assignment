@@ -296,3 +296,33 @@ th {
   font-weight: 400;
   text-align: left;
 }
+/* calculate bmi design */
+
+.calculate-bmi h4{
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.calculate-bmi p{
+  font-size: 0.80rem;
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 20px;
+}
+.calculate-bmi{
+  flex: 1;
+  margin-left: 220px;
+}
+.form-container{
+  display: grid;
+  row-gap: 10px;
+  column-gap: 20px;
+  grid-template-columns: repeat(2,2fr);
+}
+.form-group input,
+select{
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 5px;
+}
