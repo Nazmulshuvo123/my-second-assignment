@@ -15,6 +15,13 @@ body {
   margin: 0 auto;
   padding: 0 10px;
 }
+/* common color */
+.h-color{
+  color: rgba(255, 255, 255, 1);
+}
+.p-color{
+  color: rgba(255, 255, 255, 0.65);
+}
 /* logo style */
 .logo {
   font-size: 2.23rem;
@@ -65,10 +72,6 @@ li.nav-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.hero-title{
-    
-   
 }
 .font-style{
     font-weight: 100;
@@ -150,3 +153,17 @@ li.nav-link {
     font-weight: 100;
     color: rgba(255, 255, 255, 0.65);
 }
+/* habit container style */
+.habit-content h3{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 60px;
+}
+.habit-content p{
+  font-size: 0.80rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 30px;
+}
+
