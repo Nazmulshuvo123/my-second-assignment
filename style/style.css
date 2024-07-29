@@ -244,3 +244,20 @@ li.nav-link {
   border-radius: 16px;
 
 }
+
+/* bmi-calculator section design */
+
+.bmi-calculator h3{
+  font-size: 3rem;
+  font-weight: 700;
+  padding-left: 25%;
+  padding-top: 30px;
+
+}
+.bmi-calculator p{
+  font-size: 0.80rem;
+  padding-left: 25%;
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 20px;
+}
