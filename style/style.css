@@ -261,3 +261,38 @@ li.nav-link {
   padding-top: 20px;
   line-height: 20px;
 }
+
+/* bmi-calculator-chart-design */
+
+.bmi-calculator-chart{
+  border: 2px solid red;
+  width: 100%;
+  margin-top: 70px;
+  background-color: rgba(34, 34, 34, 1);
+}
+
+.bmi-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* table design */
+.caption{
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+table{
+  border-collapse: collapse;
+}
+
+td,
+th {
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+}
