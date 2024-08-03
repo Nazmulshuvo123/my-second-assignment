@@ -238,6 +238,36 @@ li.nav-link {
   height: 300px;
   border-radius: 16px;
 }
+/* Training and Exercises section */
+.training-title h2{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.training-title p{
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 30px;
+
+}
+.name{
+  color: beige;
+  font-size: 1rem;
+  font-weight: 400;
+  position: absolute;
+}
+.training-and-exercises img{
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.row-1,
+.row-2{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
 
 /* bmi-calculator section design */
 
@@ -282,12 +312,12 @@ table {
 
 td,
 th {
-  color: rgba(255, 255, 255, 0.5);
-  border: 1px solid black;
-  padding: 15px 30px;
   font-size: 1rem;
   font-weight: 400;
   text-align: left;
+  padding: 15px 30px;
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.5);
 }
 /* calculate bmi design */
 
@@ -316,8 +346,8 @@ th {
 .form-group input,
 select {
   width: 100%;
-  padding: 10px 0px;
   border: none;
+  padding: 10px 0px;
   border-radius: 5px;
   background-color: rgba(70, 68, 68, 0.986);
 }
@@ -400,8 +430,8 @@ select {
 
 .get-started-content {
   padding-top: 60px;
-  padding-bottom: 60px;
   padding-left: 180px;
+  padding-bottom: 60px;
 }
 .fitness-content p {
   font-size: 0.87rem;
@@ -412,8 +442,20 @@ select {
 .get-started-content ul li {
   list-style: none;
   padding-top: 10px;
-  color: rgba(7, 7, 7, 0.863);
   font-size: 0.87rem;
   font-weight: 400;
   word-spacing: 2px;
+  color: rgba(7, 7, 7, 0.863);
+}
+
+.bar {
+  margin: 30px;
+  border: 1px solid rgba(17, 16, 16, 0.555);
+}
+
+.p-style {
+  padding: 20px;
+  font-weight: 400;
+  font-size: 0.87rem;
+  text-align: center;
 }
