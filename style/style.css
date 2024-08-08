@@ -610,5 +610,43 @@ select {
   padding-top: 10px;
   padding-bottom: 20px;
 }
+/*Make Responsive run an extra mile section */
+.run-section {
+  padding: 30px 0;
+  
+}
+.run-extra-mile-content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgba(34, 34, 34, 1);
+}
 
+.run-extra-mile {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom:20px;
+}
+
+.run-extra-mile h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.run-extra-mile p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.run-image img {
+  width: 270px;
+  height: 250px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
 }
