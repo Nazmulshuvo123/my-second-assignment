@@ -169,7 +169,6 @@ li.nav-link {
   padding-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* justify-content: space-around; */
 }
 
 .practice-image img {
@@ -558,7 +557,7 @@ select {
   color: rgba(250, 250, 249, 1);
 }
 #number-two {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: rgba(250, 250, 249, 1);
 }
@@ -575,4 +574,41 @@ select {
   bottom: 400px;
   background-color: rgba(128, 128, 128, 0.082);
 }
+
+/* Change your habit section */
+
+.habit-content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+.habit-content p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 20px;
+}
+.image-container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.practice-image img {
+  border-radius: 50%;
+}
+
+.practice-image h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.practice-image p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 }
