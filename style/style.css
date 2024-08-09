@@ -666,4 +666,53 @@ select {
   padding-left: 13%;
   padding-right: 10%;
 }
+/*Make Responsive bmi chart*/
+/* bmi-calculator-chart responsive */
+.bmi-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.caption {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+td,
+th {
+  font-size: 0.60rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 15px 30px;
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* calculate bmi design */
+
+.calculate-bmi h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.calculate-bmi p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  padding-top: 10px;
+  line-height: 15px;
+  padding-bottom: 20px;
+}
+.calculate-bmi {
+  margin-left: 0;
+}
+.button {
+  margin-top: 20px;
+
+}
+.select select {
+  width: 213%;
+}
+
 }
