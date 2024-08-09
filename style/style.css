@@ -715,4 +715,23 @@ th {
   width: 213%;
 }
 
+/* Make responsive our team section */
+.team-title h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 20px;
+}
+.team-title p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.teams {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
 }
