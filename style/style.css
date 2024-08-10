@@ -62,7 +62,9 @@ li.nav-link {
   border-radius: 30px;
   background-color: rgba(230, 83, 60, 1);
 }
-
+.burger{
+  visibility: hidden;
+}
 /* hero section design */
 .hero-section {
   background: rgba(17, 17, 17, 1);
@@ -238,6 +240,29 @@ li.nav-link {
   height: 300px;
   border-radius: 16px;
 }
+
+/* Unique section design */
+
+.unique-section{
+  width: 100%;
+  border: 2px solid red;
+  background: rgba(153, 101, 77, 0.226);
+}
+.training-and-exercises h4{
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.training-and-exercises {
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+
 /* Training and Exercises section */
 .training-title h2{
   font-size: 3rem;
@@ -487,6 +512,8 @@ select {
   top: 5%;
   left: 88%;
   transform: translate(-50%, -50%);
+  visibility: visible;
+ 
 }
 .line{
   width: 20px;
@@ -612,7 +639,7 @@ select {
 }
 /*Make Responsive run an extra mile section */
 .run-section {
-  padding: 30px 0;
+  /* padding: 30px 0; */
   
 }
 .run-extra-mile-content {
@@ -645,8 +672,7 @@ select {
 .run-image img {
   width: 270px;
   height: 250px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   border-radius: 16px;
 }
 
@@ -734,4 +760,26 @@ th {
   grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
+/* Make responsive footer section */
+.fitness-container{
+  display: flex;
+  flex-direction: column;
+}
+.fitness-content .logo{
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+.fitness-content p {
+  font-size: 0.6rem;
+  font-weight: 400px;
+  line-height: 20px;
+  padding-top: 20px;
+}
+
+.get-started-content {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
 }
