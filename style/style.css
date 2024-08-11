@@ -245,60 +245,27 @@ li.nav-link {
 
 .unique-section{
   width: 100%;
-  border: 2px solid red;
-  background: rgba(153, 101, 77, 0.226);
 }
 .training-and-exercises h4{
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 10px;
 
 }
-.training-and-exercises {
-  font-size: 0.7rem;
+.training-and-exercises p {
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
   padding-top: 10px;
-  
-}
-
-/* Training and Exercises section */
-.training-title h2{
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: left;
-  padding-top: 40px;
   padding-bottom: 20px;
 }
-.training-title p{
-  font-size: 1rem;
-  font-weight: 400;
-  padding-bottom: 30px;
+.video{
+  border-radius: 10px;
+}
 
-}
-.name{
-  color: beige;
-  font-size: 1rem;
-  font-weight: 400;
-  position: absolute;
-}
-.training-and-exercises img{
-  width: 100%;
-  height: 300px;
-  position: relative;
-}
-.row-1,
-.row-2{
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
-}
-.row-1{
-  grid-template-columns: 0.6fr 1fr 0.7fr;
-}
-.row-2{
-  grid-template-columns: 1fr 0.6fr 0.7fr;
-}
+
 
 /* bmi-calculator section design */
 
