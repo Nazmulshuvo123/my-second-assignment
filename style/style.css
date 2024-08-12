@@ -912,4 +912,44 @@ th {
     padding: 10px 0;
     line-height: 15px;
   }
+  /* Run an extra mile section responsive for medium device */
+  .run-section {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  
+  .run-extra-mile-content {
+    display: flex;
+    padding-top: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+  }
+  
+  .run-extra-mile {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .run-extra-mile h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  .run-extra-mile p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .run-image {
+    padding-right: 30px;
+  }
+  .run-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+  }
 }
