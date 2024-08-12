@@ -846,8 +846,8 @@ select {
   }
   .tutorial-button-one {
     position: absolute;
-    bottom: -320px;
-    right: 460px;
+    bottom: -300px;
+    right: 560px;
     padding: 20px;
     border-radius: 12px;
     background-color: rgba(128, 128, 128, 0.082);
@@ -1035,5 +1035,25 @@ select {
     position: absolute;
     margin-top: -55px;
     line-height: 25px;
+  }
+  /* footer section design */
+  .footer-content {
+    width: 100%;
+    background-color: rgb(53, 51, 51);
+  }
+  .fitness-container {
+    display: grid;
+    grid-template-columns: repeat(1.2fr);
+  }
+  .fitness-content {
+    padding: 50px 0px;
+  }
+  .get-started-content{
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .started-content{
+    display: flex;
+    justify-content: space-between;
   }
 }
