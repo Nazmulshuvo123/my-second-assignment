@@ -952,4 +952,26 @@ th {
     height: 250px;
     border-radius: 16px;
   }
+  /* Make responsive unique section */
+  .unique-section{
+    width: 100%;
+  }
+  .training-and-exercises h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  
+  }
+  .training-and-exercises p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .video{
+    border-radius: 10px;
+  }
 }
