@@ -874,4 +874,42 @@ th {
     bottom: 10px;
     background-color: rgba(128, 128, 128, 0.082);
   }
+  /* Make responsive habit section for medium device */
+  .habit-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .habit-content p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .image-container {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  
+  .practice-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .practice-image h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+  .practice-image p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 15px;
+  }
 }
