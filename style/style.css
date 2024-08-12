@@ -467,7 +467,7 @@ select {
     font-size: 2rem;
     font-weight: 800;
     font-style: italic;
-    padding-left: 7%;
+    padding-left: 14%;
     color: rgba(230, 83, 60, 1);
   }
 .nav-item{
@@ -475,7 +475,7 @@ select {
 }
 .burger{
   position: absolute;
-  top: 9%;
+  top: 10%;
   left: 88%;
   transform: translate(-50%, -50%);
   visibility: visible;
@@ -776,4 +776,102 @@ th {
   font-size: 0.80rem;
   font-weight: 400;
 }
+}
+
+/* Responsive for medium device */
+@media screen and (min-width:576px) and (max-width: 800px) {
+  .logo {
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item {
+    list-style: none;
+    display: flex;
+    border-radius: 38px;
+    padding: 2px;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  li.nav-link {
+    padding: 10px 15px;
+  }
+  .nav-link a {
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.644);
+  }
+  .active {
+    border-radius: 30px;
+    background-color: rgba(230, 83, 60, 1);
+  }
+  .burger{
+    visibility: hidden;
+  }
+  /* Hero content design */
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-title h2 {
+    font-size: 2.5rem;
+  }
+  .hero-title p {
+    font-size: 0.8rem;
+    padding-top: 10px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .btn-div{
+    display: flex;
+    padding-top: 15px;
+  }
+  .btn-primary {
+    font-size: 0.7rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    width: 130px;
+    padding: 10px 0px;
+  }
+  .btn-app {
+    font-size: 0.7rem;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 40px;
+    width: 130px;
+    padding: 10px 0px;
+    background: rgba(17, 17, 17, 1);
+    margin-left: 20px;
+  }
+  .image-content img {
+    position: relative;
+    padding-top: 20px;
+  }
+  .tutorial-button-one {
+    position: absolute;
+    bottom: -320px;
+    right: 460px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(128, 128, 128, 0.082);
+  }
+  
+  .tutorial-button-two {
+    padding: 20px;
+    border-radius: 12px;
+    position: absolute;
+    right: 200px;
+    bottom: 10px;
+    background-color: rgba(128, 128, 128, 0.082);
+  }
 }
