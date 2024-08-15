@@ -416,6 +416,7 @@ select {
 }
 .fitness-container {
     display: flex; 
+    justify-content: space-around;
 }
 .fitness-content {
   padding: 60px 0px;
